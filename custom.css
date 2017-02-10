@@ -7,15 +7,36 @@
 
 }
 
+hr {
+    border: 1px solid #2f4f4f;
+}
+.shadow {
+        box-shadow:  3px 3px 5px #888888;
+}
+
 .jumbotron {
     background-image: url("images/sec_bg.jpeg");
-    /*background-color: #000000; /*black*/
     color : #ffffff;
     padding : 100px 25px;
 }
 
-.bg-grey {
-    background-color : #f6f6f6;
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.content {
+    padding-left: 20px;
+}
+.secondary {
+    font-size: 12px;
+    color: #2f4f4f;
+    font-style: italic;
+}
+.bg-black {
+    background-color : #000000;
+    color: #ffffff;
 }
 
 .container-fluid {
@@ -29,7 +50,7 @@
 
 p {
     font-size: 16px;
-    padding : 25px 25px;
+   /* padding : 25px 25px;*/
 }
 .navbar {
     margin-bottom: 0;
